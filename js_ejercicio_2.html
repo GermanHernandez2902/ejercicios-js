@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 2 - Contador de Clics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #ff9966, #ff5e62);
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.2);
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 10px;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: #0056b3;
+      transform: scale(1.05);
+    }
+
+    #contador {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🖱️ Contador de Clics</h1>
+    <button id="btnContar">Contar clics</button>
+    <button id="btnReiniciar">Reiniciar</button>
+    <p id="contador">Clics: 0</p>
+  </div>
+
+  <!-- Vinculamos el JS -->
+  <script src="js_ejercicio2.js"></script>
+</body>
+</html>

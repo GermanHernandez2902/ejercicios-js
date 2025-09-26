@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 1 - Cambiador de Color</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      transition: background 0.5s;
+    }
+    h1 {
+      margin-top: 20px;
+    }
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .random {
+      background-color: #007BFF;
+      color: white;
+    }
+    .random:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎨 Cambiador de Color</h1>
+  <p>Haz clic en los botones para cambiar el color del fondo</p>
+
+  <!-- Botones -->
+  <button onclick="cambiarColor('red')">Rojo</button>
+  <button onclick="cambiarColor('green')">Verde</button>
+  <button onclick="cambiarColor('blue')">Azul</button>
+  <button class="random" onclick="cambiarColorAleatorio()">Aleatorio</button>
+
+  <!-- Importamos el JS -->
+  <script src="js_ejercicio1.js"></script>
+</body>
+</html>
