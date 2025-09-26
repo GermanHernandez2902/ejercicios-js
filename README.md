@@ -19,10 +19,11 @@ Colección de ejercicios prácticos en **HTML + JavaScript** para practicar mani
 9. **Lista de Tareas con LocalStorage** ✅ – Persistencia en navegador.
 
 
+
 ---
 
-## 🌍 Demo en GitHub Pages
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://germanhernandez2902.github.io/ejercicios-js/)
+## 🌍 Relación de Ejercicios
+[![Relación de Ejercicios](https://img.shields.io/badge/Ver-Relación%20de%20Ejercicios-blue?style=for-the-badge)](https://germanhernandez2902.github.io/ejercicios-js/)
 
 ---
 
