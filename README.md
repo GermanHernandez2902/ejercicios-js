@@ -18,10 +18,11 @@ Colección de ejercicios prácticos en **HTML + JavaScript** para practicar mani
 8. **Contador de Palabras y Caracteres** ✍️ – Conteo en vivo + reset.  
 9. **Lista de Tareas con LocalStorage** ✅ – Persistencia en navegador.
 
+
 ---
 
 ## 🌍 Demo en GitHub Pages
-Visita: `https://germanhernandez2902.github.io/ejercicios-js/`
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?style=for-the-badge&logo=github)](https://germanhernandez2902.github.io/ejercicios-js/)
 
 ---
 
@@ -34,3 +35,4 @@ Visita: `https://germanhernandez2902.github.io/ejercicios-js/`
 Desarrollado por **German Hernandez**  
 📧 german.hernandez2902@gmail.com  
 📱 +57 3196022171
+
